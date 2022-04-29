@@ -11,9 +11,9 @@ function displayTime(){
    const session = document.querySelector(".session");
 
    if(hour >= 12){
-       session.innerHTML = "AM"
-   } else {
        session.innerHTML = "PM"
+   } else {
+       session.innerHTML = "AM"
    }
 
 
